@@ -6,14 +6,14 @@ import HomePage from "../components/HomePage.vue";
 import MyAccountPage from "../components/MyAccountPage.vue";
 
 const routes = [
-  { path: '/', component: LoginPage },
+  { path: '/login', component: LoginPage },
   {
     path: '/home',
     component: HomePage,
     beforeEnter: (to, from, next) => {
       if (!store.getters.isAuthenticated) {
         console.log(store.getters.isAuthenticated);
-        next("/");
+        next('/login');
       } else {
         next();
       }
@@ -25,7 +25,7 @@ const routes = [
     beforeEnter: (to, from, next) => {
       console.log(store.getters.isAuthenticated);
       if (!store.getters.isAuthenticated) {
-        next("/");
+        next('/login');
       } else {
         next();
       }
