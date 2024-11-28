@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmy_app"]=self["webpackChunkmy_app"]||[]).push([[305,340],{1340:function(a,n,i){i.r(n);var t=i(305);n["default"]={...t["default"]}},305:function(a,n,i){i.r(n),n["default"]={validationError:"Помилка",validationWarning:"Попередження",validationSuccess:"Успішно",validationInfo:"Інформація"}}}]);
+//# sourceMappingURL=340.8ad4ed48.js.map

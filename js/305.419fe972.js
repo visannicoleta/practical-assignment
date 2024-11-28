@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmy_app"]=self["webpackChunkmy_app"]||[]).push([[305],{305:function(a,i,n){n.r(i),i["default"]={validationError:"Помилка",validationWarning:"Попередження",validationSuccess:"Успішно",validationInfo:"Інформація"}}}]);
+//# sourceMappingURL=305.419fe972.js.map
